@@ -1,0 +1,6 @@
+# application.yml jest pusty! To jest plik bootstrap.yml
+spring:
+  application:
+    name: randomizing-machine
+sever:
+  port: 8060
