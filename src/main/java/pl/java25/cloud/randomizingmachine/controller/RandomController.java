@@ -19,11 +19,11 @@ public class RandomController {
 
     @GetMapping("/word")
     public String randomWord() {
-        return words[rnd.nextInt()];
+        return words[rnd.nextInt(words.length)];
     }
 
     @GetMapping("/number")
     public String randomNumber() {
-        return numbers[rnd.nextInt()];
+        return numbers[rnd.nextInt(numbers.length)];
     }
 }
